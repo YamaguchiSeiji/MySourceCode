@@ -1,20 +1,0 @@
-C:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -y -r 10 -start_number 0 -start_number_range 1 -i C:/Users/s1230/OneDrive - ç‹¬ç«‹è¡Œæ”¿æ³•äºº å›½ç«‹é«˜ç­‰å°‚é–€å­¦æ ¡æ©Ÿæ§‹/HI4å±±å£/æƒ…å ±å·¥å­¦å®Ÿé¨“ii/ãƒ‡ãƒ¼ã‚¿åˆ†æãƒ»ãƒ‡ãƒ¼ã‚¿å‡¦ç†/ãƒ‘ãƒ©ãƒ‘ãƒ©æ¼«ç”»ç”»åƒ/ãƒ•ãƒ¬ãƒ¼ãƒ %04d.png -c:v libopenh264 -b:v 5000k C:/Users/s1230/OneDrive - ç‹¬ç«‹è¡Œæ”¿æ³•äºº å›½ç«‹é«˜ç­‰å°‚é–€å­¦æ ¡æ©Ÿæ§‹/HI4å±±å£/æƒ…å ±å·¥å­¦å®Ÿé¨“ii/ãƒ‡ãƒ¼ã‚¿åˆ†æãƒ»ãƒ‡ãƒ¼ã‚¿å‡¦ç†/ãƒ‘ãƒ©ãƒ‘ãƒ©æ¼«ç”»å‹•ç”».mkv
-=====================================================
-Input #0, image2, from 'C:/Users/s1230/OneDrive - “Æ—§s­–@l ‘—§‚“™ê–åŠwZ‹@\/HI4RŒû/î•ñHŠwÀŒ±ii/ƒf[ƒ^•ªÍEƒf[ƒ^ˆ—/ƒpƒ‰ƒpƒ‰–Ÿ‰æ‰æ‘œ/ƒtƒŒ[ƒ€%04d.png':
-  Duration: 00:00:04.04, start: 0.000000, bitrate: N/A
-  Stream #0:0: Video: png, rgba(pc), 1920x1080 [SAR 9448:9448 DAR 16:9], 25 fps, 25 tbr, 25 tbn, 25 tbc
-Stream mapping:
-  Stream #0:0 -> #0:0 (png (native) -> h264 (libopenh264))
-Press [q] to stop, [?] for help
-[libopenh264 @ 000002d76964aa40] Slice count will be set automatically
-[libopenh264 @ 000002d76964aa40] [OpenH264] this = 0x000002D76A7B5A50, Warning:bEnableFrameSkip = 0,bitrate can't be controlled for RC_QUALITY_MODE,RC_BITRATE_MODE and RC_TIMESTAMP_MODE without enabling skip frame.
-Output #0, matroska, to 'C:/Users/s1230/OneDrive - “Æ—§s­–@l ‘—§‚“™ê–åŠwZ‹@\/HI4RŒû/î•ñHŠwÀŒ±ii/ƒf[ƒ^•ªÍEƒf[ƒ^ˆ—/ƒpƒ‰ƒpƒ‰–Ÿ‰æ“®‰æ.mkv':
-  Metadata:
-    encoder         : Lavf58.76.100
-  Stream #0:0: Video: h264 (H264 / 0x34363248), yuv420p(tv, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 5000 kb/s, 10 fps, 1k tbn
-    Metadata:
-      encoder         : Lavc58.134.100 libopenh264
-    Side data:
-      cpb: bitrate max/min/avg: 5000000/0/5000000 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=-0.0 size=       1kB time=00:00:00.00 bitrate=4792.0kbits/s speed=0.0501x    frame=   42 fps=0.0 q=-0.0 size=       1kB time=00:00:04.10 bitrate=   1.2kbits/s speed=7.84x    frame=   87 fps= 84 q=-0.0 size=     256kB time=00:00:08.60 bitrate= 243.8kbits/s speed=8.35x    frame=  101 fps= 84 q=-0.0 Lsize=    1315kB time=00:00:10.00 bitrate=1076.8kbits/s speed=8.36x    
-video:1313kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.103664%

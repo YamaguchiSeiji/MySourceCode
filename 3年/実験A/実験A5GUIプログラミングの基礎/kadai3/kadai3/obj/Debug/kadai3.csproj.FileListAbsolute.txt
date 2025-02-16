@@ -1,9 +1,0 @@
-C:\Users\hiuser\source\repos\kadai3\kadai3\bin\Debug\kadai3.exe.config
-C:\Users\hiuser\source\repos\kadai3\kadai3\bin\Debug\kadai3.exe
-C:\Users\hiuser\source\repos\kadai3\kadai3\bin\Debug\kadai3.pdb
-C:\Users\hiuser\source\repos\kadai3\kadai3\obj\Debug\kadai3.csprojAssemblyReference.cache
-C:\Users\hiuser\source\repos\kadai3\kadai3\obj\Debug\kadai3.Form1.resources
-C:\Users\hiuser\source\repos\kadai3\kadai3\obj\Debug\kadai3.Properties.Resources.resources
-C:\Users\hiuser\source\repos\kadai3\kadai3\obj\Debug\kadai3.csproj.GenerateResource.cache
-C:\Users\hiuser\source\repos\kadai3\kadai3\obj\Debug\kadai3.exe
-C:\Users\hiuser\source\repos\kadai3\kadai3\obj\Debug\kadai3.pdb
