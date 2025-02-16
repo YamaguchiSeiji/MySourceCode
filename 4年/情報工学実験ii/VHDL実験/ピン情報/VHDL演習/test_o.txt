@@ -1,5 +1,0 @@
-led_out1   PIN_Y18
-led_out2   PIN_Y12
-
-sw_in1   PIN_G26
-sw_in2   PIN_N23
