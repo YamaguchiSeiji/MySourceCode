@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+body { /* Webページ全体のスタイルを指定 */
+    color: black; /* 文字の色 */
+    background-color: white;  /* 背景の色 */
+}
+
+h1 {  /* h1のスタイルを指定 */
+    font-size: 30pt; /* 文字の大きさ */
+}
+
+h2 {  /* h2のスタイルを指定 */
+    font-size: 24px; /* 文字の大きさ */
+    border-bottom-width: 4px;   /* 下の線の太さ     */
+    border-bottom-style: groove;  /* 下の線のスタイル */
+    border-bottom-color: orange;  /* 下の線の色       */
+
+    border-left-width: 10px;     /* 左の線の太さ     */
+    border-left-style: solid;    /* 左の線のスタイル */
+    border-left-color: orange;    /* 左の線の色       */
+    padding-left: 10px;  /* 左の線と文字の間 */
+}
+
+h3 {  /* h3のスタイルを指定 */
+    font-size: 20px; /* 文字の大きさ */
+    border-bottom-width: 3px;   /* 下の線の太さ     */
+    border-bottom-style: dotted;  /* 下の線のスタイル */
+    border-bottom-color: #ffb235;  /* 下の線の色       */
+    margin-top: 30px;  /* 上部の余白 */
+}
+
+table {
+    /* 表の設定 */
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    /* 表見出しの設定 */
+    text-align: left;  /* 左寄せ */
+    background-color: #ffdb6f;  /* 背景の色 */
+    padding: 5px 10px;  /* 余白設定 */
+}
+td {
+    /* 表のデータセルの設定 */
+    text-align: left;  /* 左寄せ */
+    background-color: #fafaff;  /* 背景の色 */
+    padding: 5px 10px;  /* 余白設定 */
+}
+
+/* ナビゲーション（メニュー）部分の設定 */
+nav{
+  text-align: center;
+  }
+nav ul {  /* 帯の部分 */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;  /* 背景色 */
+  text-align: center;
+}
+nav li {
+  float: left;
+}
+nav li a {  /* 項目の部分 */
+  display: block;
+  color: rgb(71, 71, 71);    /* 文字色 */
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+nav li a:hover { /* マウスカーソルが通過したとき */
+  color: rgb(255, 255, 255);    /* 文字色 */
+  background-color: rgb(0, 0, 0);   /* 背景色 */
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>My Website</title>
+<link rel="stylesheet" href="style.css" />
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['line']});
+      google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', '月');
+      data.addColumn('number', 'ラパス');
+      data.addColumn('number', 'サンタクルス');
+      data.addColumn('number', '東京');
+
+      data.addRows([
+        [1,  14, 30, 6],
+        [2,  14, 30, 7],
+        [3,  14, 29, 10],
+        [4,  14, 28, 15],
+        [5,  14, 26, 19],
+        [6,  13, 25, 22],
+        [7,  13, 25, 26],
+        [8,  14, 28, 27],
+        [9,  15, 29, 24],
+        [10, 15, 30, 19],
+        [11, 15, 30, 13],
+        [12, 15, 30, 9],
+      ]);
+
+      var options = {
+        chart: {
+          title: '東京とボリビア(ラパス, サンタクルス)の月別平均気温のグラフ',
+        },
+        width: 900,
+        height: 500
+      };
+
+      var chart = new google.charts.Line(document.getElementById('linechart_material'));
+
+      chart.draw(data, google.charts.Line.convertOptions(options));
+    }
+    </script>
+</head>
+<body>
+<h1>気候について</h1>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="what.html">ボリビアとは</a></li>
+    <li><a href="temp.html">気候について</a></li>
+  </ul>
+</nav>
+
+<h2>ボリビアの気候について</h2>
+<p>
+  このページでは、ボリビアはどんな気候をしているのか説明しようと思います。<br />
+  高山が多くあるボリビアでは年間を通してほとんど気温が変わらない高山気候となっています。<br />
+
+<p>
+  東京とボリビアの月別の平均気温をグラフで表すと以下のようになります。<br/>
+  グラフを見るとボリビアのラパスとサンタクルスは年間でほとんど気温が変わることはなく、ラパスはサンタクルスに比べて標高が高いため気温も低くなっています。<br/>
+  <div id="linechart_material" style="width: 900px; height: 500px"></div>
+
+</p>
+
+<h2>参考文献</h2>
+<p>
+  <a href="https://ja.weatherspark.com/">WeatherSpark</a><br/>
+</p>
+</body>
+</html>

@@ -1,0 +1,104 @@
+\documentclass[12pt,fleqn]{jsarticle}
+\usepackage[top=10mm,bottom=15mm,left=18mm,right=18mm]{geometry}
+\usepackage{listings}
+\usepackage{empheq}
+\usepackage[dvipdfmx]{color}
+\usepackage{ascmac}
+\renewcommand{\labelenumi}{(\theenumi)}  % enumerateの番号のスタイル
+
+%%%%% lstlistingのスタイル定義 ここから
+\lstdefinestyle{ex}{
+ frame={trbl},
+ frameround={tttt},
+ lineskip=-0.7ex,
+ numbers=none
+}
+
+\lstset{%default
+basicstyle={\ttfamily},
+ breaklines=true,
+ escapechar=\`,
+ columns=[l]{fullflexible},
+ keepspaces=true,
+ showstringspaces=false,
+ xrightmargin=0em,
+ xleftmargin=1em,
+ stepnumber=1,
+ lineskip=-0.7ex,
+ frame={lrtb},
+ frameround={nnnn},
+ numberstyle={\scriptsize},
+ numbers=left
+}
+%%%%% lstlistingのスタイル定義 ここまで
+
+\begin{document}
+
+\section*{HI4実験 SMTソルバ演習レポート}
+
+\begin{flushright}
+ 提出日: 20YY.MM.DD \\
+ HI4 NN番 氏名
+\end{flushright}
+
+{\color{blue}
+\begin{boxnote}
+レポートの次のような構成で記述する．
+\begin{enumerate}
+ \item 表題，提出日，氏名
+ \item 各課題の解答
+ \begin{enumerate}
+ \item 課題名と課題内容の要約
+ \item 問題への解答（説明）
+ \item プログラム
+ \item 実行例（入力によって実行結果が変わる場合は，複数の実行例を記述する．）
+ \end{enumerate}
+\item 感想
+\end{enumerate}
+
+\end{boxnote}
+}
+
+\section*{\underline{課題smt-2: 解のない連立方程式}}
+解がないような連立方程式を考え，その解をZ3に求めさせようとした場合に，
+UNSAT(充足不能，解なし)となることを確認するプログラムを作成せよ．
+
+\subsection*{解答}
+
+次のような連立方程式を考えた．
+
+\begin{eqnarray*}
+  4x  +  2y & =  2   \\
+    :
+\end{eqnarray*}
+
+この連立方程式は．．
+
+
+\subsection*{プログラム}
+\begin{lstlisting}
+from z3 import *
+    :
+\end{lstlisting}
+
+\subsection*{実行例}
+\subsubsection*{実行例1}
+
+（入力によって実行結果が変わる場合は，複数の実行例を記述する．）
+
+\begin{lstlisting}[style=ex]
+$ python3 eq.py
+     :
+\end{lstlisting}
+
+\subsubsection*{実行例2}
+
+\section*{\underline{課題smt-3: ...}}
+
+
+\section*{感想}
+
+
+
+
+\end{document}

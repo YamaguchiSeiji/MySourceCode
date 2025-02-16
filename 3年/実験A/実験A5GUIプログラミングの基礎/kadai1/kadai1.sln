@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kadai1", "kadai1\kadai1.csproj", "{549F880D-9471-46E6-84A2-348342B43044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{549F880D-9471-46E6-84A2-348342B43044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549F880D-9471-46E6-84A2-348342B43044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549F880D-9471-46E6-84A2-348342B43044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549F880D-9471-46E6-84A2-348342B43044}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FF569B0-4273-4DDD-B702-803F300D9FF3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,57 @@
+#include <stdio.h>
+#define STU_NUM 50
+struct student{
+	char person;
+	double height;
+	double weight;
+};
+
+struct sum{
+	double f_hei;
+	double f_wei;
+	double m_hei;
+	double m_wei;
+	int f_count;
+	int m_count;
+};
+
+int main(){
+	struct student stu[STU_NUM];
+	struct sum sum;
+	sum.f_count=0,sum.m_count=0;
+	sum.f_hei=0,sum.m_hei=0;
+	sum.f_wei=0,sum.m_wei=0;
+	int stu_count;
+	printf("クラス人数:");
+	scanf("%d\n",&stu_count);
+	printf("%d\n",&stu_count);
+	puts("性別　身長　体重の順で入力");
+	for(int i=0; i<stu_count; i++){
+		scanf("%c %lf %lf\n", &stu[i].person, &stu[i].height, &stu[i].weight);
+		if(stu[i].person == 'F'){
+			sum.f_hei += stu[i].height;
+			sum.f_wei += stu[i].weight;
+			sum.f_count++;
+		} else {
+			sum.m_hei += stu[i].height;
+			sum.m_wei += stu[i].weight;
+			sum.m_count++;
+		}
+	}
+	puts("------------------------");
+	puts("|性別|　身長　|　体重　|");
+	puts("------------------------");
+	for(int i=0; i<stu_count; i++){
+		printf("|%3c |%7.2f |%7.2f |\n",stu[i].person, stu[i].height, stu[i].weight);
+	}
+	puts("------------------------");
+	puts("");
+	puts("平均身長と平均体重");
+	puts("------------------------");
+	puts("|性別|　身長　|　体重　|");
+	puts("------------------------");
+	printf("|男性|%7.2f |%7.2f |\n",sum.m_hei / sum.m_count, sum.m_wei / sum.m_count);
+	printf("|女性|%7.2f |%7.2f |\n",sum.f_hei / sum.f_count, sum.f_wei / sum.f_count);
+	puts("------------------------");
+	return 0;
+}

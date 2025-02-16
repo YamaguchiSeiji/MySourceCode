@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="ページ1" id="MNm3-KqzFuX7iOPVuoHq">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LMNks9HoepepocPyGhrk-1" value="Character" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LMNks9HoepepocPyGhrk-2" value="Player" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LMNks9HoepepocPyGhrk-5" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="LMNks9HoepepocPyGhrk-2" target="LMNks9HoepepocPyGhrk-1">
+          <mxGeometry x="0.0029" width="160" relative="1" as="geometry">
+            <mxPoint x="459.9970588235295" y="230" as="sourcePoint" />
+            <mxPoint x="562.35" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LMNks9HoepepocPyGhrk-7" value="Enemy" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="510" y="180" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LMNks9HoepepocPyGhrk-8" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LMNks9HoepepocPyGhrk-7" target="LMNks9HoepepocPyGhrk-1">
+          <mxGeometry x="-0.0091" width="160" relative="1" as="geometry">
+            <mxPoint x="520" y="150" as="sourcePoint" />
+            <mxPoint x="680" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LMNks9HoepepocPyGhrk-9" value="Battle" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LMNks9HoepepocPyGhrk-11" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1" source="LMNks9HoepepocPyGhrk-2" target="LMNks9HoepepocPyGhrk-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="270" as="sourcePoint" />
+            <mxPoint x="550" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LMNks9HoepepocPyGhrk-14" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=1;" connectable="0" vertex="1" parent="LMNks9HoepepocPyGhrk-11">
+          <mxGeometry x="0.1074" y="-1" relative="1" as="geometry">
+            <mxPoint x="-13" y="-35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LMNks9HoepepocPyGhrk-12" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1" source="LMNks9HoepepocPyGhrk-7" target="LMNks9HoepepocPyGhrk-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="260" as="sourcePoint" />
+            <mxPoint x="600" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LMNks9HoepepocPyGhrk-13" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="LMNks9HoepepocPyGhrk-12">
+          <mxGeometry x="0.2344" y="1" relative="1" as="geometry">
+            <mxPoint x="17" y="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

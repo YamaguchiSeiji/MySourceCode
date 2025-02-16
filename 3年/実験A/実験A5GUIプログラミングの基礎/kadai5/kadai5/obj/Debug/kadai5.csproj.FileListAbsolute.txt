@@ -1,0 +1,9 @@
+C:\Users\hiuser\source\repos\kadai5\kadai5\bin\Debug\kadai5.exe.config
+C:\Users\hiuser\source\repos\kadai5\kadai5\bin\Debug\kadai5.exe
+C:\Users\hiuser\source\repos\kadai5\kadai5\bin\Debug\kadai5.pdb
+C:\Users\hiuser\source\repos\kadai5\kadai5\obj\Debug\kadai5.csprojAssemblyReference.cache
+C:\Users\hiuser\source\repos\kadai5\kadai5\obj\Debug\kadai5.Form1.resources
+C:\Users\hiuser\source\repos\kadai5\kadai5\obj\Debug\kadai5.Properties.Resources.resources
+C:\Users\hiuser\source\repos\kadai5\kadai5\obj\Debug\kadai5.csproj.GenerateResource.cache
+C:\Users\hiuser\source\repos\kadai5\kadai5\obj\Debug\kadai5.exe
+C:\Users\hiuser\source\repos\kadai5\kadai5\obj\Debug\kadai5.pdb

@@ -1,0 +1,21 @@
+|andtest_o
+sw_in1[0] => andgate:and1.sw_in[0]
+sw_in1[1] => andgate:and1.sw_in[1]
+sw_in2[0] => andgate:and2.sw_in[0]
+sw_in2[1] => andgate:and2.sw_in[1]
+led_out1 <= andgate:and1.led_out
+led_out2 <= andgate:and2.led_out
+
+
+|andtest_o|andgate:and1
+sw_in[0] => led_out~0.IN0
+sw_in[1] => led_out~0.IN1
+led_out <= led_out~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|andtest_o|andgate:and2
+sw_in[0] => led_out~0.IN0
+sw_in[1] => led_out~0.IN1
+led_out <= led_out~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

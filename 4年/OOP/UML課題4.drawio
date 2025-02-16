@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="ページ1" id="MNm3-KqzFuX7iOPVuoHq">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FDt5Ov1_pex_vCO2fJj--1" value="&lt;u&gt;b1: battle&lt;/u&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FDt5Ov1_pex_vCO2fJj--10" value="&lt;u&gt;Mike: Player&lt;/u&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="260" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="FDt5Ov1_pex_vCO2fJj--18" value="&lt;u&gt;Jane: Player&lt;/u&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="FDt5Ov1_pex_vCO2fJj--19" value="&lt;u&gt;slime: Enemy&lt;/u&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="350" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="FDt5Ov1_pex_vCO2fJj--20" value="&lt;u&gt;dragon: Enemy&lt;/u&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="FDt5Ov1_pex_vCO2fJj--21" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;" edge="1" parent="1" source="FDt5Ov1_pex_vCO2fJj--18" target="FDt5Ov1_pex_vCO2fJj--1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="450" as="sourcePoint" />
+            <mxPoint x="380" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FDt5Ov1_pex_vCO2fJj--24" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;" edge="1" parent="1" source="FDt5Ov1_pex_vCO2fJj--10" target="FDt5Ov1_pex_vCO2fJj--1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="460" as="sourcePoint" />
+            <mxPoint x="300" y="286" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="286" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FDt5Ov1_pex_vCO2fJj--25" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;" edge="1" parent="1" source="FDt5Ov1_pex_vCO2fJj--1" target="FDt5Ov1_pex_vCO2fJj--19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="480" as="sourcePoint" />
+            <mxPoint x="400" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FDt5Ov1_pex_vCO2fJj--26" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;" edge="1" parent="1" source="FDt5Ov1_pex_vCO2fJj--1" target="FDt5Ov1_pex_vCO2fJj--20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="490" as="sourcePoint" />
+            <mxPoint x="410" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="286" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,12 @@
+C:\Users\hiuser\source\repos\kadai6\kadai6\bin\Debug\kadai6.exe.config
+C:\Users\hiuser\source\repos\kadai6\kadai6\bin\Debug\kadai6.exe
+C:\Users\hiuser\source\repos\kadai6\kadai6\bin\Debug\kadai6.pdb
+C:\Users\hiuser\source\repos\kadai6\kadai6\obj\Debug\kadai6.csprojAssemblyReference.cache
+C:\Users\hiuser\source\repos\kadai6\kadai6\obj\Debug\kadai6.Form1.resources
+C:\Users\hiuser\source\repos\kadai6\kadai6\obj\Debug\kadai6.Properties.Resources.resources
+C:\Users\hiuser\source\repos\kadai6\kadai6\obj\Debug\kadai6.csproj.GenerateResource.cache
+C:\Users\hiuser\source\repos\kadai6\kadai6\obj\Debug\kadai6.exe
+C:\Users\hiuser\source\repos\kadai6\kadai6\obj\Debug\kadai6.pdb
+C:\Users\hiuser\source\repos\kadai6\kadai6\bin\Debug\BookData.txt
+C:\Users\hiuser\source\repos\kadai6\kadai6\bin\Debug\cygwin1.dll
+C:\Users\hiuser\source\repos\kadai6\kadai6\bin\Debug\searchbook.exe
